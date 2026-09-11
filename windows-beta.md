@@ -148,3 +148,9 @@ Automatic Praxis updates are not included in this beta. Quit Praxis before insta
 To remove the app, use **Windows Settings → Apps → Installed apps → Praxis → Uninstall**. Keep your workspace folders and GitHub repository unless you deliberately want to remove their contents; uninstalling the app is not a request to delete legal work.
 
 When reporting a problem, include the installer version, Windows version, the step you were on, and the exact error. Redact client details, passwords, and tokens. The beta organizer will ask you to verify installation, account creation, restart/sign-in persistence, workspace sharing, assistant drafting, and PDF export on a real Windows PC.
+
+## Feedback (Praxis 0.1.1 and later)
+
+Choose **Feedback** in the top toolbar to report a problem, suggest an improvement, or ask a question. Add a short summary and details. Use **Add screenshots or images**, or paste a screenshot into Details. You can attach three PNG/JPEG images per message, up to 2 MiB each. Review screenshots for client details before sending.
+
+To check progress or reply, open **Feedback → … → View feedback and replies**, then select your report. Use Refresh to load recent updates. Only you and designated Praxis feedback reviewers can see your report and images; other members of your firm cannot. There are no email notifications or automatic updates in this beta. If sending fails, your draft stays in the dialog while the app remains open.
