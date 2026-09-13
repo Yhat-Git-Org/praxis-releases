@@ -65,11 +65,12 @@ Sources: [Codex CLI installation](https://developers.openai.com/codex/cli/), [Co
 3. This beta is unsigned. Windows may display **Windows protected your PC** or an **Unknown publisher** warning. If the file came from the expected Praxis release and you choose to proceed, use **More info → Run anyway** when available. If your organization's policy blocks it, ask IT; do not disable Windows security.
 4. If asked to install **Microsoft Edge WebView2 Runtime**, allow it and wait for completion. Praxis uses it to display the application; internet access may be required.
 5. Open **Praxis** from the Start menu. If you installed prerequisites while Praxis was open, quit and reopen it first.
+6. From version 0.1.2, installation adds the bundled Praxis CLI to your Windows user PATH. Close and reopen your terminal application, then run `praxis --version` to verify. Reinstalling does not add duplicate entries; uninstalling removes that installation’s CLI path.
 
 For an optional integrity check, open PowerShell in the download folder and run:
 
 ```powershell
-Get-FileHash .\Praxis_0.1.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\Praxis_0.1.2_x64-setup.exe -Algorithm SHA256
 ```
 
 Substitute the actual installer filename if it differs. Compare the result with SHA256SUMS.txt; case does not matter. A checksum checks the download against the release file; it does not replace publisher signing.
@@ -115,6 +116,8 @@ Replace the example with the actual repository address. Complete the browser sig
 6. Ask the administrator to assign the matters you should work on. Praxis membership and GitHub repository access are separate; matter assignments guide work but do not hide repository files from people who have repository access.
 
 Do not create a second empty workspace when the firm already has files: download the existing one.
+
+Praxis 0.1.2 and later remembers your last open workspace when you quit and reopens it on launch. Closing the workspace, signing out, or switching firms clears that selection. If the folder has moved or is unavailable, choose its location again.
 
 ## 7. Try the first document
 
